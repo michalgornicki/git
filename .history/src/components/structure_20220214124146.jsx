@@ -24,7 +24,7 @@ git push origin master
 
 //create pull request on github
 
-//review code and merge pull request
+//review code and merge 
           `}</pre>
         </div>
       </div>

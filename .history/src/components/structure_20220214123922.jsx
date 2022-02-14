@@ -3,7 +3,7 @@ const Structure = () => {
     <div className="">
         <div className="js-item">
         {" "}
-        <div className="">Workflow from beginning to adding new feature from our branch: </div>
+        <div className="">git init: </div>
         <div className="text-pink">
           <pre>{`
 git clone
@@ -22,9 +22,8 @@ git commit -m "new commit name"
 git push origin master
 //push feature branch to repository, to master branch
 
-//create pull request on github
+//
 
-//review code and merge pull request
           `}</pre>
         </div>
       </div>

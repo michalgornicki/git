@@ -11,7 +11,7 @@ const Conflicts = () => {
         <div className="text-pink">
           <pre>{`
 git push -f origin HEAD
-//When you change the history, you must force push changes to your origin to update changes from upstream.
+//When you changes the history, you must force push changes to your origin.
 
 and later
 
@@ -31,6 +31,7 @@ git checkout new_feature
 git fetch upstream master
 git merge upstream master
 git push origin HEAD or git push origin <currentbranch>
+
           `}</pre>
         </div>
       </div>
@@ -48,6 +49,7 @@ git rebase upstream shared_feature
 git push upstream shared_feature
 
 //If your push is also rejected try to rebase again and push.
+
           `}</pre>
         </div>
       </div>

@@ -10,8 +10,9 @@ const Conflicts = () => {
         <div className="">Upstream is ahead of origin</div>
         <div className="text-pink">
           <pre>{`
+
 git push -f origin HEAD
-//When you change the history, you must force push changes to your origin to update changes from upstream.
+//When you changes the history, you must force push changes to your origin.
 
 and later
 
@@ -30,24 +31,7 @@ or
 git checkout new_feature
 git fetch upstream master
 git merge upstream master
-git push origin HEAD or git push origin <currentbranch>
-          `}</pre>
-        </div>
-      </div>
-      <div className="js-item">
-        {" "}
-        <div className="">Working on feature on shared branch on upstream</div>
-        <div className="text-pink">
-          <pre>{`
-//Other person working on this shared branch pushed changes that conflict with yours.
-//To solve this conflict you can rebase your local files from upstream shared branch and push result to upstream repository.
 
-git checkout shared_feature
-git fetch upstream shared_feature
-git rebase upstream shared_feature
-git push upstream shared_feature
-
-//If your push is also rejected try to rebase again and push.
           `}</pre>
         </div>
       </div>

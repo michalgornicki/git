@@ -11,7 +11,7 @@ const Conflicts = () => {
         <div className="text-pink">
           <pre>{`
 git push -f origin HEAD
-//When you change the history, you must force push changes to your origin to update changes from upstream.
+//When you chang the history, you must force push changes to your origin.
 
 and later
 
