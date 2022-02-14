@@ -1,6 +1,3 @@
-import rebase from "../rebase.png";
-import merge from "../merge.png";
-
 const Basics = () => {
   return (
     <div className="container">
@@ -210,9 +207,8 @@ Switched to a branch 'master'
         {" "}
         <div className="">git merge: </div>
         <div className="text-pink">
-        <img className="text-pink__image" src={merge} alt="" />
-
           <pre>{`
+
 git merge lower-branch
 
 Updating f5b6e2f..741822a
@@ -224,29 +220,22 @@ Fast-forward
 //This command try to merge content of selected branch into current branch.
 //git merge is creating new commit containing every change that has been made since it branched from master.
 //git merge helps keep information about all the changes made in feature branch.
-//Merge is recognized as safe method for integrating changes.
-//It can be easily undone.
+
           `}</pre>
         </div>
       </div>
       <div className="js-item">
         {" "}
         <div className="">git rebase: </div>
-
         <div className="text-pink">
-        <img className="text-pink__image" src={rebase} alt="" />
-
           <pre>{`
 
-git rebase <newparent> <branch> or
-//Without checkout.
-git rebase <newparent>
-//It will rebase checkout branch to selected new parent.
+git rebase <targetbranch>
+
 
 //This command is alternative approach to integrate changes from our feature branch to main branch.
-//git rebase shouldn't be used on public branches, it should be used only on localy.
-//git rebase create linear (without forks) code history.
-//Rebasing rewrites the project history by creating new commits for each commit of feature branch on tip of master branch.
+//git rebase shouldn't be used on public branches, it should be used only on local mac.
+//git rebase create linear code history.
 
           `}</pre>
         </div>

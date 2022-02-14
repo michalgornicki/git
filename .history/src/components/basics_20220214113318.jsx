@@ -239,7 +239,7 @@ Fast-forward
           <pre>{`
 
 git rebase <newparent> <branch> or
-//Without checkout.
+//
 git rebase <newparent>
 //It will rebase checkout branch to selected new parent.
 

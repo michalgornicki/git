@@ -17,7 +17,7 @@ function App() {
             Commands
           </Link>
           <Link className="link-style mx-3" to="/Structure">
-            Workflows
+            Workflow
           </Link>
           <Link className="link-style mx-3" to="/Conflicts">
             Conflicts

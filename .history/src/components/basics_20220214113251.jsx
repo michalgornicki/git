@@ -239,9 +239,8 @@ Fast-forward
           <pre>{`
 
 git rebase <newparent> <branch> or
-//Without checkout.
 git rebase <newparent>
-//It will rebase checkout branch to selected new parent.
+//It will rebase c
 
 //This command is alternative approach to integrate changes from our feature branch to main branch.
 //git rebase shouldn't be used on public branches, it should be used only on localy.

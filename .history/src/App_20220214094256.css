@@ -34,11 +34,7 @@ body{
     background-color: rgb(226, 226, 226);  
 }
 
-.text-pink__image{
-    margin: auto;
-    padding: 2rem;
-    display: block;
-}
+
 
 pre {
     white-space: pre-wrap;       /* css-3 */
