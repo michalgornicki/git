@@ -16,15 +16,9 @@ function App() {
 
         <div className="h3 d-flex w-75 m-auto my-5 justify-content-evenly flex-wrap text-white">
           <Link className="link-style mx-3" to="/Setup">
-          Setup
+            Commands
           </Link>
-          <Link className="link-style mx-3" to="/CommandsInfo">
-          Commands (infos)
-          </Link>
-          <Link className="link-style mx-3" to="/CommandsWork">
-          Commands (workflow)
-          </Link>
-          <Link className="link-style mx-3" to="/Workflow">
+          <Link className="link-style mx-3" to="/Structure">
             Workflows
           </Link>
           <Link className="link-style mx-3" to="/Conflicts">

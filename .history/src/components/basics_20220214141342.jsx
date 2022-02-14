@@ -116,6 +116,9 @@ Date:   Wed Feb 9 12:15:36 2022 +0100
 
 //With this command we can see information about our latest commits.
 
+git log --oneline --graph
+//Shows visual repre
+
           `}</pre>
         </div>
       </div>
@@ -253,7 +256,23 @@ git rebase <newparent>
       </div>
       <div className="js-item">
         {" "}
-        <div className="">git branch -D: </div>
+        <div className="">git branch: </div>
+        <div className="text-pink">
+          <pre>{`
+git branch
+//Show all local branches
+
+git branch -r
+//Show all remote branches
+
+git branch -a
+//Show all local and branches
+          `}</pre>
+        </div>
+      </div>
+      <div className="js-item">
+        {" "}
+        <div className="">git branch -D (deleting branch): </div>
         <div className="text-pink">
           <pre>{`
 
@@ -334,6 +353,19 @@ git pull
 
 //The git pull command is a shorthand for running two commands: git fetch followed by a git merge.
 // Use this command to update files on local branch from remote.
+
+          `}</pre>
+        </div>
+      </div>
+      <div className="js-item">
+        {" "}
+        <div className="">Ignoring files in git </div>
+        <div className="text-pink">
+          <pre>{`
+
+//Git creates .gitignore file in project's root folder.
+//You can include here file names you want to be ignored by git.
+//.gitignore can ignore files by pattern, for example "*.txt" for ignoring all txt files.
 
           `}</pre>
         </div>

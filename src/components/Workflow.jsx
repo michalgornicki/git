@@ -1,4 +1,4 @@
-const Structure = () => {
+const Workflow = () => {
   return (
     <div className="">
         <div className="js-item">
@@ -6,25 +6,25 @@ const Structure = () => {
         <div className="">Workflow from beginning to adding new feature from our branch: </div>
         <div className="text-pink">
           <pre>{`
-git clone
-git remote add <name> <url>
-//download repository files and add our remote workplace
+1. git clone
+2. git remote add <name> <url>
+//download repository files and add remote repo to your computer (on Github for example).
 
-git checkout -b <new branch name>
+3. git checkout -b <new branch name>
 //create new feature branch
 
-//add files, make changes
+4. add files/make changes
 
-git add .
-git commit -m "new commit name"
+5. git add .
+6. git commit -m "new commit name"
 //stage files and create commit (snapshot) of changes
 
-git push origin master
+7. git push origin master
 //push feature branch to repository, to master branch
 
-//create pull request on github
+8. create pull request on github
 
-//review code and merge pull request
+9. review code and merge pull request
           `}</pre>
         </div>
       </div>
@@ -32,4 +32,4 @@ git push origin master
   );
 };
 
-export default Structure;
+export default Workflow;

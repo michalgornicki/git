@@ -36,7 +36,7 @@ function App() {
           <Route path="/Setup" element={<Setup />} />
           <Route path="/CommandsInfo" element={<CommandsInfo />} />
           <Route path="/CommandsWork" element={<CommandsWork />} />
-          <Route path="/Workflow" element={<Workflow />} />
+          <Route path="/Workflows" element={<Workflow />} />
           <Route path="/Conflicts" element={<Conflicts />} />
         </Routes>
       </div>

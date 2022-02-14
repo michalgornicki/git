@@ -18,13 +18,7 @@ function App() {
           <Link className="link-style mx-3" to="/Setup">
           Setup
           </Link>
-          <Link className="link-style mx-3" to="/CommandsInfo">
-          Commands (infos)
-          </Link>
-          <Link className="link-style mx-3" to="/CommandsWork">
-          Commands (workflow)
-          </Link>
-          <Link className="link-style mx-3" to="/Workflow">
+          <Link className="link-style mx-3" to="/Structure">
             Workflows
           </Link>
           <Link className="link-style mx-3" to="/Conflicts">
