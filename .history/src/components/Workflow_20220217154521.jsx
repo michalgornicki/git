@@ -25,8 +25,6 @@ const Workflow = () => {
 8. create pull request on github
 
 9. review code and merge pull request
-
-10. Repeat from 3. point
           `}</pre>
         </div>
       </div>

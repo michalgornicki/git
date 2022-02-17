@@ -39,6 +39,7 @@ git commit -m "add links to navigation"
         <div className="">git push: </div>
         <div className="text-pink">
           <pre>{`
+
 git push <remote destination> <branch>
 git push origin master
 

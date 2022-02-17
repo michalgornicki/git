@@ -46,8 +46,6 @@ git init
           <pre>{`
 git config --global user.name "<Your-Full-Name>"
 
-git config --global user.email "<your-email-address>"
-
 //This command allows you to specify the username and email address that will be used with your commits.
           `}</pre>
         </div>

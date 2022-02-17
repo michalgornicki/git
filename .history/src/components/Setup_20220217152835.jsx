@@ -41,14 +41,12 @@ git init
       </div>
       <div className="js-item">
         {" "}
-        <div className="">git config: </div>
+        <div className="">git init: </div>
         <div className="text-pink">
           <pre>{`
-git config --global user.name "<Your-Full-Name>"
+git init
 
-git config --global user.email "<your-email-address>"
-
-//This command allows you to specify the username and email address that will be used with your commits.
+//When you are creating new directory on local machine you should start working with git using this command to turn directory into a git repository.
           `}</pre>
         </div>
       </div>

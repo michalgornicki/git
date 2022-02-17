@@ -39,6 +39,7 @@ git commit -m "add links to navigation"
         <div className="">git push: </div>
         <div className="text-pink">
           <pre>{`
+
 git push <remote destination> <branch>
 git push origin master
 
@@ -54,6 +55,7 @@ To https://github.com/michalgornicki/javascript
 
 //With this command we can push our changes from local directory to origin remote - Github repository.
 //After "git push" we must specify remote branch where our commit will land.
+
           `}</pre>
         </div>
       </div>
@@ -62,6 +64,7 @@ To https://github.com/michalgornicki/javascript
         <div className="">git checkout: </div>
         <div className="text-pink">
           <pre>{`
+
 git checkout -b lower-branch
 
 Switched to a new branch 'lower-branch'

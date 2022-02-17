@@ -44,9 +44,7 @@ git init
         <div className="">git config: </div>
         <div className="text-pink">
           <pre>{`
-git config --global user.name "<Your-Full-Name>"
-
-git config --global user.email "<your-email-address>"
+git init
 
 //This command allows you to specify the username and email address that will be used with your commits.
           `}</pre>

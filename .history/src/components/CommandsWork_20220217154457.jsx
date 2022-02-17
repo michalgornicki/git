@@ -39,6 +39,7 @@ git commit -m "add links to navigation"
         <div className="">git push: </div>
         <div className="text-pink">
           <pre>{`
+
 git push <remote destination> <branch>
 git push origin master
 
@@ -54,6 +55,7 @@ To https://github.com/michalgornicki/javascript
 
 //With this command we can push our changes from local directory to origin remote - Github repository.
 //After "git push" we must specify remote branch where our commit will land.
+
           `}</pre>
         </div>
       </div>
@@ -62,6 +64,7 @@ To https://github.com/michalgornicki/javascript
         <div className="">git checkout: </div>
         <div className="text-pink">
           <pre>{`
+
 git checkout -b lower-branch
 
 Switched to a new branch 'lower-branch'
@@ -74,6 +77,7 @@ Switched to a branch 'master'
 //Use git checkout to switch branches or create new branch.
 //Branch is a pointer to a specific timeline of the Git history.
 //Creating branches is key feature for working in team, you can work on separate branch without affecting core of the project code.
+
           `}</pre>
         </div>
       </div>
@@ -107,6 +111,7 @@ Fast-forward
           <img className="text-pink__image" src={rebase} alt="" />
 
           <pre>{`
+
 git rebase <newparent> <branch> or
 //Without checkout.
 git rebase <newparent>
@@ -116,6 +121,7 @@ git rebase <newparent>
 //git rebase shouldn't be used on public branches, it should be used only on localy.
 //git rebase create linear (without forks) code history.
 //Rebasing rewrites the project history by creating new commits for each commit of feature branch on tip of master branch.
+
           `}</pre>
         </div>
       </div>
@@ -124,12 +130,14 @@ git rebase <newparent>
         <div className="">git branch -D (deleting branch): </div>
         <div className="text-pink">
           <pre>{`
+
 git branch -D lower-branch
 
 Deleted branch lower-branch (was 741822a).
 
 
 //After merging our branch to master branch we can delete it with this command.
+
           `}</pre>
         </div>
       </div>
@@ -138,8 +146,10 @@ Deleted branch lower-branch (was 741822a).
         <div className="">Create pull request: </div>
         <div className="text-pink">
           <pre>{`
+
 //After pushing new branch to remote you can create new pull request on Github.
 //After creating pull request anyone with push access to the repository can complete the merge your pulled request into master branch.
+
           `}</pre>
         </div>
       </div>
@@ -148,6 +158,7 @@ Deleted branch lower-branch (was 741822a).
         <div className="">git restore: </div>
         <div className="text-pink">
           <pre>{`
+
 git restore <filename>
 //Restore state of single file.
 
@@ -160,6 +171,7 @@ git restore --staged <filename>
 //git restore is used to restore/discard the uncommitted local changes of files.
 //It also can be used for unstage files (revert git add).
 //This command returns state of local directory to last commit state.
+
           `}</pre>
         </div>
       </div>
